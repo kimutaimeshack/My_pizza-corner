@@ -179,6 +179,18 @@ header .navbar a:hover {
   width: 100%;
   border-radius: .5rem;
 }
+#large {
+  height: 380px;
+  width: 380px;
+}
+#medium {
+  height:270px;
+  width: 270px;
+}
+#small {
+  height: 190px;
+  width: 180px;
+}
 
 .popular .box-container .box .price {
   position: absolute;
