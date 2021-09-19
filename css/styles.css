@@ -13,7 +13,7 @@ header {
   justify-content: space-between;
   background: #fff;
   padding: 2rem 9%;
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  box-shadow: 0 1rem 1rem rgba(6, 248, 87, 0.932);
 }
 
 header .logo {
