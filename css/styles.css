@@ -32,13 +32,13 @@
   overflow: hidden;
 }
 
-.gallery .box-container .box img {
+.box img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.myItemlist .box-container .box .content {
+.box .content {
   position: absolute;
   top: -100%;
   left: 0;
@@ -50,7 +50,7 @@
   text-align: center;
 }
 
-.myItemlist .box-container .box .content h3 {
+ .box .content h3 {
   font-size: 2.5rem;
   color: #333;
 }
@@ -62,7 +62,7 @@
   left: 300px;
 }
 
-.myItemlist .box-container .box:hover .content {
+.box:hover .content {
   top: 0;
 }
 
