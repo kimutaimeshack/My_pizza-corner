@@ -1,7 +1,7 @@
 # pizza-corner
 *********
 ## Author
-[MESHACK KIMUTAI](https://github.com/kimutaimeshack)
+[MESHACK KIMUTAI](https://github.com/kimutaimeshack?tab=repositories)
 *********
 ## Description
 
