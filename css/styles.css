@@ -56,9 +56,10 @@
 }
 
 .gallery .box-container .box .content p {
-  font-size: 1.5rem;
-  color: #666;
-  padding: 1rem 0;
+  padding-left: 30px;
+  background-color: olivedrab;
+  font-size: 30px;
+  left: 300px;
 }
 
 .gallery .box-container .box:hover .content {
@@ -88,10 +89,6 @@
   transition: all .2s linear;
 }
 
-*::selection {
-  background: var(--red);
-  color: #fff;
-}
 
 html {
   font-size: 62.5%;
@@ -116,14 +113,14 @@ section {
 }
 
 .heading span {
-  color: var(--red);
+  color: springgreen;
 }
 
 .btn {
   display: inline-block;
   padding: .8rem 3rem;
-  border: .2rem solid var(--red);
-  color: var(--red);
+  border: 2px solid skyblue;
+  color: yellow;
   cursor: pointer;
   font-size: 1.7rem;
   border-radius: .5rem;
@@ -244,15 +241,17 @@ header .navbar a:hover {
   width: 180px;
 }
 
-.mycontainerclass .box-container .box .price {
+
+.mycontainerclass .box-container .box .cashpay {
   position: absolute;
   top: 3rem;
-  left: 3rem;
-  background: var(--red);
-  color: #fff;
+  left: 150px;
+  color:mediumvioletred;
+  padding: 20px;
   font-size: 2rem;
-  padding: .5rem 1rem;
   border-radius: .5rem;
+  text-align: center;
+  background-color:lightseagreen;
 }
 
 .mycontainerclass .box-container .box h3 {
