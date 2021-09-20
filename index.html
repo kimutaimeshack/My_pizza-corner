@@ -236,7 +236,7 @@
 
      <div class="input-group mb-3">
   <label class="input-group-text" for="inputGroupSelect01">Pizza Size</label>
-  <select class="form-select" id="inputGroupSelect01">
+  <select class="form-select" id="PizzaSize">
     <option selected disabled value="-">Pizza Size...</option>
     <option value="700">Large</option>
     <option value="450">Medium</option>
@@ -245,28 +245,36 @@
 </div>
 
   <div class="input-group mb-3">
-  <label class="input-group-text" for="inputGroupSelect01">Pizza Size</label>
-  <select class="form-select" id="inputGroupSelect01">
-    <option selected disabled value="-">Pizza Size...</option>
-    <option value="700">Large</option>
-    <option value="450">Medium</option>
-    <option value="300">Small</option>
+  <label class="input-group-text" for="inputGroupSelect01">Pizza Crust</label>
+  <select class="form-select" id="PizzaCrust">
+    <option selected disabled value="-">Pizza Crust...</option>
+    <option value="400">Gluten-Free</option>
+    <option value="160">Pizza Bagels</option>
+    <option value="200">FlatBread</option>
+     <option value="100">Gluten-Free</option>
+    <option value="150">Crispy</option>
+    <option value="200">Stuffed</option>
   </select>
 </div>
-     <div class="input-group mb-3">
-  <label class="input-group-text" for="inputGroupSelect01">Pizza Size</label>
-  <select class="form-select" id="inputGroupSelect01">
-    <option selected disabled value="-">Pizza Size...</option>
-    <option value="700">Large</option>
-    <option value="450">Medium</option>
-    <option value="300">Small</option>
+  <div class="input-group mb-3">
+  <label class="input-group-text" for="inputGroupSelect01">Pizza Topping</label>
+  <select class="form-select" id="PizzaTopping">
+    <option selected disabled value="-">Pizza Topping...</option>
+    <option value="200">Bacon</option>
+    <option value="200">Spicy Pepperoni</option>
+    <option value="200">Pizza Sauce</option>
+    <option value="200">Veggie Special</option>
+    <option value="200">Mushrooms</option>
+    <option value="200">Gooat Cheese</option>
   </select>
 </div>
+
+  <input type="number" class="inputclass" name="year" placeholder="Number of Pizza" required><br><br>
 
                     
                 
 
-            <button type="submit" class="btn">Add</button>
+            <button type="submit" class="btn">Add</button><button type="reset" class="btn">clear</button>
           </form>
 
           <h2>Contacts:</h2>
@@ -280,6 +288,9 @@
 
     <p>First name: <span class="first-name"></span></p>
     <p>Last name: <span class="last-name"></span></p>
+     <p id="demo"></p>
+     <p id="demo2"></p>
+
   </div>
 </div> 
       </div>
