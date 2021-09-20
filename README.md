@@ -15,7 +15,7 @@ This is a web application for pizza place. It allows customers order different s
 </table>
 
 ### Home page
-![alt text](https://github.com/kimutaimeshack/My_pizza-corner/blob/master/images/pizzahome.png)
+![alt text](https://github.com/kimutaimeshack/My_pizza-corner/blob/master/images/pizza.png)
 *********
 ## project live link
 Here is a working live link : https://kimutaimeshack.github.io/My_pizza-corner/
