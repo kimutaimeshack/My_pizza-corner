@@ -1,17 +1,18 @@
 // business logic
 
 var mybutton = document.getElementById("btn1")
-function Contact(first, last, pizzaSize, pizzaCrust, pizzatoppings) {
+function Contact(first, last, pizzaSize, pizzaCrust, pizzatoppings, pizzanumber) {
   this.firstName = first;
   this.lastName = last;
   this.pizzaSizePrice = pizzaSize;
   this.pizzaCrustPrice = pizzaCrust;
   this.pizzatoppingsPrice = pizzatoppings;
+  this.numberofpizza = pizzanumber;
 }
 
 
 Contact.prototype.Totalcost = function () {
-    return this.pizzaSizePrice + this.pizzaCrustPrice + this.pizzatoppingsPrice ;
+    return this.pizzaSizePrice + this.pizzaCrustPrice + this.pizzatoppingsPrice + this.numberofpizza ;
 }
 
 // user interface logic
@@ -21,6 +22,7 @@ $(document).ready(function() {
     var pizzaCrustPrice;
     var pizzaSizePrice ;
     var pizzatoppingsPrice ;
+    var pizzanumber;
     var inputtedFirstName = $("input#new-first-name").val();
     var inputtedLastName = $("input#new-last-name").val();
     var pizzaSize = $("#PizzaSize").val();
@@ -59,10 +61,25 @@ $(document).ready(function() {
         }
 
 
+        if (pizzanumber === "200") {
+            numberofpizza = 200;
+        } else if (pizzanumber === "190") {
+            numberofpizza = 190;
+        } else if (pizzanumber === "210") {
+            numberofpizza = 210;
+        }
+        if (pizzanumber === "220") {
+            numberofpizza = 220;
+        }
+        if (pizzanumber === "230") {
+            numberofpizza = 230;
+        }
 
 
 
-    var newContact = new Contact(inputtedFirstName, inputtedLastName, pizzaSizePrice, pizzaCrustPrice, pizzatoppingsPrice);
+
+
+    var newContact = new Contact(inputtedFirstName, inputtedLastName, pizzaSizePrice, pizzaCrustPrice, pizzatoppingsPrice, numberofpizza);
 
    
     $("input#new-first-name").val("");
@@ -75,6 +92,7 @@ $(document).ready(function() {
   $("#demo").append(newContact.pizzaSizePrice);
   $("#demo2").append(newContact.pizzaCrustPrice);
   $("#demo3").append(newContact.pizzatoppingsPrice);
+  $("#demo4").append(newContact.numberofpizza);
 
 
 
