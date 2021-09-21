@@ -392,6 +392,24 @@ main {
 }
 
 
+/* --------start footer page css ---------- */
+
+.footer {
+  text-align: center;
+  background-color: darkslateblue;
+  padding-top: 22px;
+  padding-bottom: 22px;
+
+}
+
+.textwhite {
+  color: black;
+}
+
+
+
+/* --------end of Footer page css ---------- */
+
 
 
 
