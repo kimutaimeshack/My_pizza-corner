@@ -77,16 +77,6 @@ $(document).ready(function() {
 
 
 
-mybutton.addEventListener("click", function () {
- $("#show-contact").show();
-  $("#show-contact h2").text("you order :");
-  $(".first-name").text(newContact.firstName);
-  $(".last-name").text(newContact.pizzaSizePrice);
-   $("#demo").text("mee");
-});
-
-
-
 
   });
 }); 
