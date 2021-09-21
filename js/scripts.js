@@ -12,7 +12,7 @@ function Contact(first, last, pizzaSize, pizzaCrust, pizzatoppings, pizzanumber)
 
 
 Contact.prototype.Totalcost = function () {
-    return this.pizzaSizePrice + this.pizzaCrustPrice + this.pizzatoppingsPrice + this.numberofpizza ;
+    return (this.pizzaSizePrice + this.pizzaCrustPrice + this.pizzatoppingsPrice )*this.numberofpizza ;
 }
 
 // user interface logic
@@ -86,13 +86,13 @@ $(document).ready(function() {
     $("input#new-last-name").val("");
 
   $("#show-contact").show();
-  $("#show-contact h1 ").text("you order :");
+  $("#show-contact h1").text("you order :");
   $(".first-name").text(newContact.firstName);
   $(".last-name").text(newContact.lastName);
   $("#demo").append(newContact.pizzaSizePrice);
   $("#demo2").append(newContact.pizzaCrustPrice);
   $("#demo3").append(newContact.pizzatoppingsPrice);
   $("#demo4").append(newContact.numberofpizza);
-
+  $("#demo5").append(newContact.Totalcost);
   });
 }); 
