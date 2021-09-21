@@ -22,7 +22,7 @@ $(document).ready(function() {
     var pizzaCrustPrice;
     var pizzaSizePrice ;
     var pizzatoppingsPrice ;
-    var pizzanumber;
+    var numberofpizza;
     var inputtedFirstName = $("input#new-first-name").val();
     var inputtedLastName = $("input#new-last-name").val();
     var pizzaSize = $("#PizzaSize").val();
@@ -61,18 +61,18 @@ $(document).ready(function() {
         }
 
 
-        if (pizzanumber === "200") {
-            numberofpizza = 200;
-        } else if (pizzanumber === "190") {
-            numberofpizza = 190;
-        } else if (pizzanumber === "210") {
-            numberofpizza = 210;
-        }
-        if (pizzanumber === "220") {
-            numberofpizza = 220;
-        }
-        if (pizzanumber === "230") {
-            numberofpizza = 230;
+        if (pizzanumber === "2") {
+            numberofpizza = 2;
+        } else if (pizzanumber === "3") {
+            numberofpizza = 3;
+        } else if (pizzanumber === "4") {
+            numberofpizza = 4;
+        }else if (pizzanumber === "1") {
+            numberofpizza = 1;
+        } else if (pizzanumber === "5") {
+            numberofpizza = 5;
+        }else if (pizzanumber === "6") {
+            numberofpizza = 6;
         }
 
 
@@ -86,16 +86,13 @@ $(document).ready(function() {
     $("input#new-last-name").val("");
 
   $("#show-contact").show();
-  $("#show-contact h2").text("you order :");
+  $("#show-contact h1 ").text("you order :");
   $(".first-name").text(newContact.firstName);
   $(".last-name").text(newContact.lastName);
   $("#demo").append(newContact.pizzaSizePrice);
   $("#demo2").append(newContact.pizzaCrustPrice);
   $("#demo3").append(newContact.pizzatoppingsPrice);
   $("#demo4").append(newContact.numberofpizza);
-
-
-
 
   });
 }); 
