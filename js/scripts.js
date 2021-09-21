@@ -44,6 +44,12 @@ $(document).ready(function() {
             pizzaCrustPrice = 160;
         } else if (pizzaCrust === "200") {
             pizzaCrustPrice = 200;
+        } else if (pizzaCrust === "100") {
+            pizzaCrustPrice = 100;
+        } else if (pizzaCrust === "150") {
+            pizzaCrustPrice = 1500;
+        } else if (pizzaCrust === "220") {
+            pizzaCrustPrice = 220;
         }
 
         if (pizzatoppings === "200") {
