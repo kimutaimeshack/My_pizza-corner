@@ -31,7 +31,7 @@ $(document).ready(function() {
     var pizzanumber = $("#numberofpizza").val();
   
         if (pizzaSize === "700") {
-            pizzaSizePrice = ('large' + 700);
+            pizzaSizePrice = (700);
         } else if (pizzaSize === "450") {
             pizzaSizePrice = 450;
         } else if (pizzaSize === "300") {
